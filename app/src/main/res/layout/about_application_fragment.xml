@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/frist_linear"
+        android:gravity="center"
+        android:background="@drawable/main_menu_titleb_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/about_application_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/about_application"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="90dp"
+        android:background="@drawable/contact_us_close_icon" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/second_linear"
+        android:background="@drawable/about_background"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintTop_toBottomOf="@+id/frist_linear"
+        >
+
+        <ImageView
+
+            android:layout_marginRight="150dp"
+            android:id="@+id/logo_app_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/about_app_icon" />
+        <TextView
+            android:id="@+id/esdar_txt"
+            android:textColor="@color/DarkBrown"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/about_app_frtxt"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/esdar_data_txt"
+            android:textColor="@color/DarkBrown"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/about_app_sectxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/appDesc_frtxt"
+            android:textColor="@color/AppBackground"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="@string/about_app_thtxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/appDesc_sctxt"
+            android:textColor="@color/AppBackground"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="@string/about_app_fotxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="150dp">
+
+         <ImageView
+             android:id="@+id/about_ittisaq_logo2_img"
+             android:background="@drawable/about_ittisaq_logo2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+         <ImageView
+             android:id="@+id/about_king_khaled_logo1_img"
+             android:background="@drawable/about_king_khaled_logo1"
+             android:layout_marginRight="60dp"
+             android:layout_width="150dp"
+             android:layout_height="100dp" />
+
+
+
+
+     </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/rules_txt"
+            android:textColor="@color/DarkBrown"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:text="@string/about_app_fftxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

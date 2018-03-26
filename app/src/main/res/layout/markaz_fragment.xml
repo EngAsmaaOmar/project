@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="@color/AppBackground"
+        android:id="@+id/fristlinear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="480dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_markaz"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            app:cardBackgroundColor="@color/DarkBrown"
+            app:cardElevation="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:id="@+id/aboutmarkaz_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/khaled_markaz"
+                    android:textColor="@color/AppBackground"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/aboutmarkaz_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/main_menu_back" />
+
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+
+            android:background="@color/LightBrown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/aboutmarkaz_desc_txt"
+                android:layout_marginTop="120dp"
+                android:background="@color/AppBackground"
+                android:textSize="20dp"
+                android:textColor="@color/DarkBrown"
+                android:text="@string/about_moassasa_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/thirdLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/fristlinear">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_qraatclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_reading_off" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_tagweedclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_tagweed_off" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_sheikhsclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_sheikhs_off" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_projectclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_project_off" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_aboutusclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_about_on" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/AppBackground"
+        android:id="@+id/fourthLinear"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/thirdLinear">
+
+        <TextView
+            android:id="@+id/qraatclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/qraat"
+            android:textColor="@color/DarkBrown" />
+
+        <TextView
+            android:id="@+id/tagweedclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tagweed"
+            android:textColor="@color/DarkBrown" />
+
+        <TextView
+            android:id="@+id/sheikhsclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shiek"
+            android:textColor="@color/DarkBrown" />
+
+
+        <TextView
+            android:id="@+id/projectclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/about_project"
+            android:textColor="@color/DarkBrown" />
+
+        <TextView
+            android:id="@+id/aboutusclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/who_us"
+            android:textColor="@color/DarkBrown" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name"></string>
+
+
+
+        <string name="ourInf"> من نحن </string>
+        <string name="malik_moassasa"> حول مؤسسة الملك خالد الخيرية</string>
+        <string name="khaled_markaz"> حول مركز الملك خالد الإرشادى</string>
+        <string name="maqraa"> حول مقرأة  جامع الملك خالد</string>
+        <string name="taeseel"> التأصيل العلمى لكافة المسائل العلمية</string>
+        <string name="call_us"> اتصل بنا </string>
+
+        <string name="qraat"> القراءات</string>
+        <string name="tagweed"> التجويد</string>
+        <string name="shiek"> المشايخ</string>
+        <string name="who_us">من نحن </string>
+        <string name="about_project">عن المشروع</string>
+        <string name="about_app">حول التطبيق</string>
+
+
+
+        <string name="introd_to_project">هو المشروع الصوتى لتحقيق المسائل الأدائيه فى التجويد والقراءات</string>
+        <string name="roya"> الرؤية: </string>
+        <string name="roya_description">مشروع صوتى مرئى تطبيقى عالمي , يعنى بضبط أداء مسائل التجويد والقراءات </string>
+        <string name="resala">الرسالة</string>
+        <string name="resala_description">تقديم نماذج تعليمية مسجلة لأداء بعض مسائل التجويد والقراءات المختارة ,محررة وفق طرق عصرية تستند إلى منهجية علمية , تهدف إلى بناء المستفيدين فى هذا العلم بناء قويما , وتوثيق وخدمة الجانب العلمي  </string>
+
+
+
+
+    <string name="qraat_page"> مسائل القراءات</string>
+    <string name="edgaam"> باب الإدغام بنوعية</string>
+    <string name="tafeef_hamz"> باب تخفيف الهمز</string>
+    <string name="waaf_hamz">باب وقف همزة وهشام على الهمز</string>
+    <string name="fath_and_emala">باب الفتح والإمالة وبين الللفظين</string>
+    <string name="letters">باب فرش الحروف</string>
+
+    <string name="ahmedmasarawy">الشيخ د./أحمد بن عيسى المعصراوي</string>
+    <string name="ahmedmasarawy_desc">حفظه الله شيخ عموم المقارىء المصرية السابق(مصر)</string>
+    <string name="abdelhakeem">الشيخ/عبدالحكيم بن عبداللطيف بن سليمان</string>
+    <string name="abdelhakeem_desc">حفظه الله شيخ عموم المقارىء المصرية الحالى (مصر)</string>
+    <string name="mohamed_khaleel">الشيخ / محمد بن عبدالحميد خليل</string>
+    <string name="mohamed_khaleel_desc"> رحمه الله شيخ قراء الإسكندرية الراحل (مصر)</string>
+    <string name="ebrahim">الشيخ / إبراهيم الأخضر القيم </string>
+    <string name="ebrahim_desc">حفظه الله -شيخ قراء المسجد النبوى الشريف(السعودية)</string>
+    <string name="mohamed_rageh">الشيخ/محمد كريم راجح</string>
+    <string name="mohamed_rageh_desc">حفظه الله شيخ قراء الشام(سوريا)</string>
+س
+    <string name="user"> دليل المستخدم</string>
+    <string name="setting">الإعدادات</string>
+    <string name="delete">مسح</string>
+    <string name="user_info">دليل المستخدم</string>
+    <string name="video_download">تحميل فيديوهات التطبيق بالكامل</string>
+    <string name="video_delete">مسح فيديوهات التطبيق بالكامل</string>
+
+    <string name="about_moassasa_text">تحمل مؤسسة الملك خالد الخيرية منذ صدور الموافقة الملكية على تأسيسها فى تاريخ 16 ذى الحجة 1421 هجرية الموافق 11مارس2001م فكرا عمليا مغايراللسائد فى بيئه عملها , وهو ما يجعلها مؤسسه فريدة من نوعها بين المنظمات غير الربحية بأشكالها المختلفة العاملة فى المملكة
+ العربية السعودية . لقد ألت المؤسسة على نفسها نشر مفاهيم العمل التنموى والإنسانى القائم على أسس استيراتيجية , ودعم باقى منظمات القطاع غير الربحى فى المملكة لتسير على هذا النهج الإنسانى الإستيراتيجى , لتتحول من مؤسسات قائمة على الأعطيات والهبات , الى مؤسسات ذات رؤية مستدامة معتمدة على ذاتها تدار</string>
+
+
+    <string name="callus"> اتصل بنا</string>
+    <string name="facebook">صفحتنا على فيس بوك </string>
+    <string name="tweet">صفحتنا على تويتر </string>
+    <string name="google_plus">صفحتنا على جوجل بلس </string>
+    <string name="instgram">صفحتنا على انستجرام </string>
+    <string name="youtube">صفحتنا على اليوتيوب </string>
+    <string name="email">راسلنا على البريد الإلكترونى </string>
+    <string name="feedback">قيم التطبيق </string>
+
+    <string name="about_application"> عن التطبيق</string>
+    <string name="about_app_frtxt"> إصدار 1.0</string>
+    <string name="about_app_sectxt"> صدر فى 15-2-2016م 11-5-1438هـ</string>
+    <string name="about_app_thtxt">المشروع الصوتى المرئى لتحقيق  </string>
+    <string name="about_app_fotxt">مسائل أدائية فى التجويد والقراءات </string>
+    <string name="about_app_fftxt"> جميع الحقوق محفوظة لمؤسسة الملك خالد الخيرية 2016</string>
+
+    <string name="bab_edgam"> باب الإدغام لنوعيه</string>
+    <string name="eshmal"> وجه الإختلاس ووجه الإشمال فى </string>
+    <string name="edgam_elnon">إدغام النون الساكنة والتنوين فى الياء والواو بلا غنة لخلف </string>
+    <string name="kafaa_elnoon"> خفاء النون الساكنة عند الغين والخاء لأبى جعفر </string>
+    <string name="edgam_elnon_tanween">إدغام النون والتنوين فى اللام والراء مع الغنة من الطيبة </string>
+    <string name="bab_egzam_text">نبذة مختصرة عن باب الإدغام بنوعيه فلا تهتم بالكلمات المكتوبة
+    فهى مجرد كلام شكلى فقط. نبذة مختصرة عن باب الإدغام بنوعيه فلا تهتم بالكلمات المكتوبة فهى مجرد كلام شكلى فقط. نبذة مختصرة</string>
+    
+    <string name="kfaa_noon_elgeen"> خفاء النون الساكنة عند الغين</string>
+    <string name="koof"> من خوف</string>
+    <string name="gil">غل</string>
+    
+    <string name="sec_kfaa_noon_txt"> هذه كلمة مختصرة عن الموضوع المراد التحدث عنه فلا تجهد نفسك فى قراءة
+        هذا النص لأنه نص تجريبى لا يعبر عن الموضوع</string>
+    <string name="shiekh_desc_txt"> هو فضيلة الشيخ العلامة المقرىء المتقن :عبدالحكيم بن عبداللطيف بن عبدالله بن سليمان , أصله من بلد اسمها الطوبرات فى صعيد مصر
+        , والنسبة إليها الطوبرى , ولد فى مصر بمنطقة الدمرداش أمام مسجد المحمدى
+    يوم 17/9/1936 (وهو يوافق على التجريب غرة رجب سنة 1355 ,نزج والده من الصعيد وعمر الوالد نحو 17 سنة ,وكان يتاجر فى الخشب , وكان له </string>
+
+
+
+
+</resources>
+
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppBackground"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/main_userlayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:id="@+id/fristLinear"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/main_menu_titleb_bar"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/help_scr1_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="120dp"
+                android:text="@string/user"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/contact_us_close_icon" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/help_scr1_img"
+            android:background="@drawable/help_scr1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

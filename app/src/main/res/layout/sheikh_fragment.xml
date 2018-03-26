@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:id="@+id/fristLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/main_menu_titleb_bar"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shiekh_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+            android:text="@string/shiek"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="90dp"
+            android:background="@drawable/main_menu_settings" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondLinear"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/AppBackground"
+        app:layout_constraintTop_toBottomOf="@+id/fristLinear"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/shiekhSearch_txt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:hint="Search"
+            android:textColorHint="@color/LightBrown"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/thirdLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/secondLinear">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_sheikhAhmedMasarawy"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp">
+
+
+            <TextView
+                android:id="@+id/sheikAhmed_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/ahmedmasarawy"
+                android:textColor="@color/DarkBrown"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/sheikAhmed_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/main_menu_arrow" />
+
+
+            <TextView
+                android:id="@+id/sheikAhmedDescription_txt"
+                android:layout_marginTop="22dp"
+                android:text="@string/ahmedmasarawy_desc"
+                android:textColor="@color/DarkBrown"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_shiekhAbdelhakeem"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:id="@+id/shiekhAbdelhakeem_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/abdelhakeem"
+                    android:textColor="@color/DarkBrown"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/shiekhAbdelhakeemimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/main_menu_arrow" />
+
+
+                <TextView
+                    android:id="@+id/shiekhAbdelhakeemDescription_txt"
+                    android:layout_marginTop="22dp"
+                    android:text="@string/abdelhakeem_desc"
+                    android:textColor="@color/DarkBrown"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_shiekhMohamed_khaleel"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp">
+
+
+            <TextView
+                android:id="@+id/shiekhMohamed_khaleel_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/mohamed_khaleel"
+                android:textColor="@color/DarkBrown"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/shiekhMohamed_khaleel_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/main_menu_arrow" />
+
+
+            <TextView
+                android:id="@+id/shiekhMohamed_khaleelDescription_txt"
+                android:layout_marginTop="22dp"
+                android:text="رحمه الله شيخ قراء الإسكندرية الراحل (مصر) "
+                android:textColor="@color/DarkBrown"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_shiekEbraheem"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:id="@+id/shiekEbraheem_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/ebrahim"
+                    android:textColor="@color/DarkBrown"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/shiekEbraheem_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/main_menu_arrow" />
+
+
+                <TextView
+                    android:id="@+id/shiekEbraheemDescription_txt"
+                    android:layout_marginTop="22dp"
+                    android:text="@string/ebrahim_desc"
+                    android:textColor="@color/DarkBrown"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_shiekMohamed_Rageh"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:id="@+id/shiekMohamed_Rageh_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/mohamed_rageh"
+                    android:textColor="@color/DarkBrown"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/shiekMohamed_Rageh_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/main_menu_arrow" />
+
+
+                <TextView
+                    android:id="@+id/shiekMohamed_RagehDescription_txt"
+                    android:layout_marginTop="22dp"
+                    android:text="@string/mohamed_rageh_desc"
+                    android:textColor="@color/DarkBrown"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/fourthLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/thirdLinear">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_qraatclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_reading_off" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_tagweedclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_tagweed_off" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_sheikhsclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_sheikhs_on" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_projectclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_project_off" />
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_aboutusclick"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white">
+
+            <android.support.v4.widget.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/main_menu_about_off" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/fifthLinear"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/fourthLinear">
+
+        <TextView
+            android:id="@+id/qraatclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/qraat"
+            android:textColor="@color/DarkBrown" />
+
+        <TextView
+            android:id="@+id/tagweedclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tagweed"
+            android:textColor="@color/DarkBrown" />
+
+        <TextView
+            android:id="@+id/sheikhsclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shiek"
+            android:textColor="@color/DarkBrown" />
+
+
+        <TextView
+            android:id="@+id/projectclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/about_project"
+            android:textColor="@color/DarkBrown" />
+
+        <TextView
+            android:id="@+id/aboutusclick_txt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/who_us"
+            android:textColor="@color/DarkBrown" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

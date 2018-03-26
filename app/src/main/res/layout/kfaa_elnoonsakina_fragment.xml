@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/AppBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/frstLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/main_menu_titleb_bar"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/img_main_menu_sub_menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_menu_sub_menu" />
+
+        <TextView
+            android:id="@+id/kfaa_noon_elgeen_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="@string/kfaa_noon_elgeen"
+            android:layout_marginTop="15dp"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/img_main_menu_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_menu_back" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secdlinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/frstLinear"
+        >
+
+        <TextView
+            android:id="@+id/sec_kfaa_noon_txt"
+            android:text="@string/sec_kfaa_noon_txt"
+            android:textColor="@color/DarkBrown"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
